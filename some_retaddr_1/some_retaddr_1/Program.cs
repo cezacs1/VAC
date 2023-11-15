@@ -60,13 +60,9 @@ class some_retaddr_1
             v2 = a2;
             if (a2 >= 0)
             {
-                if (v2 > 3)
-                    v2 = 3;
+                if (v2 > 3) v2 = 3;                    
             }
-            else
-            {
-                v2 = 0;
-            }
+            else v2 = 0;
 
             v4 = /*1120i64*/1120L * v2;
             if ((sbyte /*unsigned __int8 == sbye*/ )LoggingSystem_IsChannelEnabled((ulong)LOG_CONSOLE(), 2UL) != 0)
