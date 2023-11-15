@@ -1,5 +1,3 @@
-# Some VAC (Valve Anti-Cheat) functions for cs2 external cheats. written .NET
-
 ## runfunc.dll
 Inspired from uc's wiki:
 
