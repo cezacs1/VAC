@@ -15,12 +15,12 @@ namespace runfunc_dll
             string filePath = "C:\\Users\\ceza\\source\\repos\\ConsoleApp3\\private\\bin\\Debug\\1.exe";
             string mappingObjectName = "Global\\MyFileMappingObject";
 
-            // Dosyayı aç
+            // Dosyanın handle'ını al
             IntPtr hFile = CreateFile(filePath, GENERIC_READ, 0, IntPtr.Zero, OPEN_EXISTING, 0, IntPtr.Zero);
 
             if (hFile != IntPtr.Zero)
             {
-                // Dosya eşlemesi oluştur
+                // Dosya için bellek eşlemesi oluştur
                 IntPtr hMapping = CreateFileMapping(hFile, IntPtr.Zero, PAGE_READONLY, 0, 1, mappingObjectName);
 
                 if (hMapping != IntPtr.Zero)
@@ -32,7 +32,7 @@ namespace runfunc_dll
                     {
                         //long size = GetFileSize(pData);
 
-                        byte[] buffer = new byte[/*size*/999]; // Örnek bir tampon
+                        byte[] buffer = new byte[/*size*/999]; // Örnek boyut
                         Marshal.Copy(pData, buffer, 0, buffer.Length);
                         string content = Encoding.UTF8.GetString(buffer);
                         Console.WriteLine("buffer (string): " + content);
@@ -61,7 +61,7 @@ namespace runfunc_dll
             Console.ReadKey();
         }
 
-        /* //test
+        /* // test
         static long GetFileSize(IntPtr pData)
         {
             string filePath = Marshal.PtrToStringAnsi(pData);
