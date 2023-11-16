@@ -11,7 +11,7 @@ Detecting changes. Converted from sub_1801F0CE0 in engine2.dll
 https://prnt.sc/sKFfjbK_SUT3
 
 ## runfunc.dll_structs
-it is used in runfunc.dll for a file that has an open handle.
+it is used for a file that has an open handle.
 
 found in dynamic vac3.dll module:
 
