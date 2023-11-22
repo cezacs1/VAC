@@ -1,4 +1,4 @@
-if u think something wrong, u can mail me -> exteriacs2@gmail.com
+if u think something wrong or wanna reverse something, u can mail me -> exteriacs2@gmail.com
 
 ## runfunc.dll
 Inspired from uc's wiki:
