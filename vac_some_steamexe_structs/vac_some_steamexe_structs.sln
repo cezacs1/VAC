@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34018.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vac_some_steamexe_structs", "vac_some_steamexe_structs\vac_some_steamexe_structs.csproj", "{1BFEE4DA-C57A-46B5-A163-2CBB5B00D7BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1BFEE4DA-C57A-46B5-A163-2CBB5B00D7BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BFEE4DA-C57A-46B5-A163-2CBB5B00D7BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BFEE4DA-C57A-46B5-A163-2CBB5B00D7BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BFEE4DA-C57A-46B5-A163-2CBB5B00D7BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9713773C-5422-4462-85B3-414BC1C23C98}
+	EndGlobalSection
+EndGlobal
