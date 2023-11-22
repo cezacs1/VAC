@@ -1,6 +1,6 @@
 if u think something wrong or wanna reverse it, u can mail me -> exteriacs2@gmail.com
 
-## runfunc.dll
+## runfunc.dll (VAC3.dll)
 Inspired from uc's wiki:
 
 https://www.unknowncheats.me/wiki/Valve_Anti-Cheat:VAC_external_tool_detection_(and_more)
