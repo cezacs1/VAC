@@ -16,3 +16,10 @@ it is used for a file that has an open handle.
 found in dynamic vac3.dll module:
 
 https://www.unknowncheats.me/forum/anti-cheat-bypass/113531-vac3-dump-5-1-14-a.html
+
+## some_steam.exe_structs
+Only used instead of steam services when you run as administrator.
+
+found in steam.exe
+
+https://prnt.sc/KSqi90-HqwP_
